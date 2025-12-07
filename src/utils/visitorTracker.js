@@ -130,7 +130,7 @@ export const sendVisitorNotification = async (visitorInfo) => {
     // Format the email content
     const emailParams = {
       to_name: "Arun",
-      message: `New visitor on your portfolio!\n\n` +
+      message: `New visitor on your GitLab portfolio, its from gitpages url!\n\n` +
                `📍 Location Information:\n` +
                `━━━━━━━━━━━━━━━━━━━━\n` +
                `IP Address: ${visitorInfo.ip}\n` +

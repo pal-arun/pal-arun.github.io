@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { FaEnvelope, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaXTwitter } from "react-icons/fa6";
 import emailjs from "@emailjs/browser";
 
 // SECTION CONTAINER
@@ -269,7 +269,7 @@ export default function Contact() {
             </ContactItem>
 
             <ContactItem href="https://x.com" target="_blank">
-              <FaTwitter /> X
+              <FaXTwitter /> X
             </ContactItem>
 
           </ContactList>
